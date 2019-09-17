@@ -1,7 +1,16 @@
 body {
+  box-sizing: border-box; /* here is my border box */
   background-color: #333;
   font-family: sans-serif;
-  font-size: 10px;
+}
+/* below are my nesting to style the text */
+  .header h1 {
+    font-size: 48px;
+    color:#FFF;
+  }
+  .header h3 {
+    font-size: 24px;
+    color:#FFF;
 }
 
 .container {
@@ -18,4 +27,11 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
+  width: 90%; /* here is my restaurant percentage to establish width of divs in this section */
 }
+
+/* location hover does not seem to be working */
+location:hover {
+  background-color: yellow;
+}
+# css-exercise-three
