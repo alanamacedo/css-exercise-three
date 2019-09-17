@@ -1,21 +1,33 @@
+* {
+  box-sizing: border-box;
+  } /* here is my border box */
 body {
-  box-sizing: border-box; /* here is my border box */
-  background-color: #333;
+  background-color: #fff;
   font-family: sans-serif;
 }
 /* below are my nesting to style the text */
-  .header h1 {
-    font-size: 48px;
-    color:#FFF;
+
+  .content {
+    display: inline-block;
+    width: 31%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
   }
-  .header h3 {
-    font-size: 24px;
-    color:#FFF;
+  .content h1 {
+    font-size: 20px;
+    color:#000;
+    padding-left: 20px;
+  }
+
+  .content h3 {
+    font-size: 14px;
+    color:#000;
+    padding-left: 20px;
 }
 
 .container {
   margin: 0 auto;
-  width: 420px;
 }
 
 nav {
@@ -23,15 +35,27 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: #000;
 }
 
 .restaurant-list {
   padding-top: 50px;
-  width: 90%; /* here is my restaurant percentage to establish width of divs in this section */
+  width: 90%;
+/* here is my restaurant percentage to establish width of divs in this section */
 }
 
 /* location hover does not seem to be working */
-location:hover {
-  background-color: yellow;
+.location:hover {
+  background-color: gray;
 }
+
+.arrow {
+  display: inline-block;
+  font-size: 70%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+
+
+}
+# css-exercise-three
 # css-exercise-three
